@@ -22,3 +22,19 @@ pip install selenium
 install geckodriver for firefox:
 
 python mange.py test
+
+deployment testing:
+run your functional and unit tests locally
+deploy your code to staging server
+have a custom domain for that
+run your functional tests against the staging site and unit tests against the staging server
+automate the process or you will get burned out
+
+testing after:
+tests can be exhausting
+when project is new, it changes too much for testing
+you'll often delete features and the tests associated with them
+if others aren't using it, why test
+wait until you have version 1.0
+create tests for those things you find crucial
+provide freedom and security that your code is working
